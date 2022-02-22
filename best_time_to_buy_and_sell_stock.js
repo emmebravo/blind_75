@@ -52,7 +52,6 @@ const maxProfit = function(prices) {
       } else if(prices[i] - buy > maxProfit){
         maxProfit = prices[i] - buy
       }
-      console.log(`prices: ${prices[i]}, buy: ${buy}, maxProfit: ${maxProfit}`)
     }
   return maxProfit
 };
